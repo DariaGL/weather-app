@@ -65,10 +65,6 @@ font-size: 24px;
 color: #272343;
 vertical-align: top;
 }
-span {
-    font-size: 24px;
-    color: #272343;
-}
 .img {
     width: 90px;
     margin: 0 auto;
@@ -86,13 +82,40 @@ span {
 }
 .weather-app .form-control {
     padding: 10px;
-    border: solid 1px #1d97c1;
+    border: solid 1px #d5f0ee;
 }
-.wob {
+.weather-description {
     text-align: center;
+}
+
+.weather-forecast-day {
+    font-size: 20px;
+    color: #272343;
+}
+.weather-forecast-temperature-max {
+    font-size: 20px;
+    color: #272343;
+}
+.weather-forecast-temperature-min {
+    font-size: 20px;
+    color: #272343a6;
+}
+.weather-forecast-description {
+    font-size: 18px;
+    color: #272343;
+}
+.card {
+    border: solid 2px #e3f6f5;
+    background: #e3f6f5;
+}
+.card:hover {
+    cursor: pointer;
+    background: #F8FCFD;
 }
 small {
     display: block;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 10px;
 }
+    

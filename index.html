@@ -31,20 +31,20 @@
       </form>
       <br/>
       <div class="row">
-        <div class="col-3">
+        <div class="col-4">
         <h1 id="city"></h1>
         <h2>Last updated:</h2>
         <h3 id="date"></h3>
        </div>
-       <div class="col-5">
+       <div class="col-4">
         <div class="d-flex weather-temperature">
-          <img src="" alt="Clear" id="icon" />
+          <img src="" alt="Clear" id="icon" width="100"/>
           <div>
             <strong id="temperature" class="temperatureNow"></strong>
-            <span class="units"><a href="#" id="celsius">°C</a> | <a href="#" id="fahrenheit">°F</a></span>
+            <span class="units" id="celsius">°C</span>
           </div>
         </div>
-        <h2 class="wob" id="description">
+        <h2 class="weather-description" id="description">
         </h2>
        </div>
        <div class="col-4">
@@ -60,7 +60,8 @@
         </li>
         </ul>
       </div>
-      </div>
+      </div> 
+      <div class="weather-forecast" id="forecast"></div>    
   </div>
 </div>
 <br/>
